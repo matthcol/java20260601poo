@@ -1,18 +1,18 @@
 package org.example.tu;
 
 import org.example.Euclide;
-import org.junit.jupiter.api.Timeout;
-import org.junit.jupiter.api.parallel.Execution;
-import org.junit.jupiter.api.parallel.ExecutionMode;
+
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 class EuclideTest {
+
+    // doc parameterized test:
+    // https://docs.junit.org/6.1.0/writing-tests/parameterized-classes-and-tests.html
 
     @ParameterizedTest
     @CsvSource({

@@ -10,9 +10,9 @@ public class Euclide {
      * @throws IllegalArgumentException if a or b is negative or zero
      */
     public static int gcd(int a, int b) {
-//        if ((a <= 0)  || (b <= 0)) {
-//            throw new IllegalArgumentException("gcd is not defined with negative or null values");
-//        }
+        if ((a <= 0)  || (b <= 0)) {
+            throw new IllegalArgumentException("gcd is not defined with negative or null values");
+        }
         while (a != b) {
             if (a > b) {
                 a = a - b;
