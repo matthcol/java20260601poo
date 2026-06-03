@@ -1,6 +1,6 @@
 package org.example.demo;
 
-import org.example.Euclide;
+import org.example.algo.Euclide;
 import org.example.enums.Famille;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

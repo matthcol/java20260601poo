@@ -1,6 +1,6 @@
 package org.example.tu;
 
-import org.example.Euclide;
+import org.example.algo.Euclide;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
