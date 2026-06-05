@@ -1,0 +1,8 @@
+label,a,b,expected gcd
+same numbers,5,5,5
+first greater,9,6,3
+second greater,6,9,3
+prime numbers,7,13,1
+multiple of each other,4,16,4
+big numbers,252,180,36
+fibonacci series,6765,4181,1
