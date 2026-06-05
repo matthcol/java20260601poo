@@ -1,5 +1,8 @@
 package org.example.algo;
 
+import org.example.annotations.Kingdoo;
+
+@Kingdoo
 public class Euclide {
 
     /**

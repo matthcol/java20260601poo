@@ -166,23 +166,4 @@ public class DemoCollection {
         System.out.println(info);
     }
 
-
-    @Test
-    void lireVille(){
-        CsvTools.listFromCsv("/communes-france-2025.csv", ',','"', 1)
-                .stream()
-                .limit(10)
-                .forEach(line -> System.out.println(Arrays.toString(line)));
-    }
-
-
-
-
-
-
-
-
-
-
-
 }

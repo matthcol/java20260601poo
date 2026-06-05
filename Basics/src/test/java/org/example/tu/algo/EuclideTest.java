@@ -1,4 +1,4 @@
-package org.example.tu;
+package org.example.tu.algo;
 
 import org.example.algo.Euclide;
 
